@@ -1,0 +1,14 @@
+name: Hello World
+author: Mijo
+descriptio: Some description
+inputs:
+  who-to-greet:
+    description: 'Who to greet'
+    required: true
+    default: Mijo
+outputs:
+  time: 
+    description: 'The greeting time'
+runs:
+  using: 'node12'
+  main: 'index.js'
