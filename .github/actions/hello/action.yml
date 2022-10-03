@@ -1,6 +1,6 @@
 name: Hello World
 author: Mijo
-descriptio: Some description
+description: Some description
 inputs:
   who-to-greet:
     description: 'Who to greet'
@@ -11,4 +11,4 @@ outputs:
     description: 'The greeting time'
 runs:
   using: 'node12'
-  main: 'index.js'
+  main: 'dist/index.js'
